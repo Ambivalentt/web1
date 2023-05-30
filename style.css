@@ -1,0 +1,181 @@
+html{
+    scroll-behavior: smooth !important;
+}
+
+.btn-custom{
+    font-weight: bold; 
+    border: none;
+    border-radius: 23px;
+}
+
+.btn-container button:first-child{
+    background-color: white;
+}
+
+.btn-container button:nth-child(2){
+    background-color: #5D50C6;
+    color: white;
+}
+.navbar-icon{
+    background-color: #5D50C6 !important;
+    width: 40px;
+    color: rgba(185, 182, 214, 0.5) !important;
+}
+
+.bx-menu{
+    color: white;
+    font-size: 2rem;
+}
+
+.container-img{
+    background-image: url('./IMG/layer.png');
+    margin-top: 70px;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.position-custom{
+    bottom: -0.9em;
+    left: -1em;
+    background-color: #F85E9F;
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+.places-position{
+    bottom: 15%;
+    right: -10%;
+}
+
+.places-position i{
+    color: rgb(240, 240, 9);
+    font-size: 1.4em;
+}
+
+.custom-color{
+    color: #F85E9F;
+}
+
+.custom-color ~ i{
+    font-size: 2.4em;
+}
+
+.h1-size{
+    font-size: 2.9em;
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.started-btn{
+    background-color: #5D50C6;
+    color: white;
+    font-size: 1em;
+    border: none;
+    font-weight: 500;
+}
+
+.watch-btn{
+    background-color: rgb(245, 244, 244);
+    color: black;
+    font-size: 1em;
+    border: none;
+    font-weight: 500;
+}
+
+.demo-icon{
+    background-color: #5D50C6;
+    color: white;
+    padding-right: 2px;
+    padding-left: 3px;
+    margin-right: 10px;
+}
+
+.letterspc{
+    letter-spacing: 4px;
+}
+.custom-purple{
+    background-color: #5D50C6;
+}
+
+.svc-font{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.card-hover:hover{
+    cursor: pointer;
+    border: none !important;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.custom-star{
+    color: darkorange;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.services-icon{
+    color: #ffffff;
+    background-color: rgb(255, 102, 0);
+    padding: .5em .8em;
+}
+
+.services-icon-2{
+    background-color: rgb(223, 223, 108);
+    color: #ffffff;
+    padding: .5em .8em;
+}
+
+.services-icon-3{
+    background-color:#F85E9F;
+    color: #ffffff;
+    padding: .5em .8em;
+}
+
+.orangebg{
+    color: rgb(255, 102, 0);
+}
+
+.yellow-star{
+    color: rgb(255, 218, 11);
+}
+
+.footer-icon{
+    color: white;
+    background-color: #5D50C6;
+    padding: 0.2em 0.4em;
+}
+
+#hideList:hover{
+    cursor: pointer;
+}
+
+.list-footer{
+    list-style: none;
+}
+.list-footer li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active .list-items {
+    max-height: 200px;
+  }
+  
+.list-items {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+
+
+@media (max-width:500px){
+    .list-items{
+        max-height: 200px;
+    }
+    .list-items.active {
+        max-height: 0;
+      }
+}
