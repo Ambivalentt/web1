@@ -171,11 +171,14 @@ html{
 
 
 
-@media (max-width:500px){
+@media (min-width:500px){
     .list-items{
         max-height: 200px;
     }
     .list-items.active {
         max-height: 0;
       }
+    .active{
+        display: block;
+    }
 }
