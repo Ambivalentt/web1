@@ -141,16 +141,6 @@ html{
     color: rgb(255, 218, 11);
 }
 
-.footer-icon{
-    color: white;
-    background-color: #5D50C6;
-    padding: 0.2em 0.4em;
-}
-
-#hideList:hover{
-    cursor: pointer;
-}
-
 .list-footer{
     list-style: none;
 }
@@ -158,16 +148,26 @@ html{
     text-decoration: none;
     color: black;
 }
+.footer-icon{
+    color: white;
+    background-color: #5D50C6;
+    padding: 0.2em 0.4em;
+}
 
-.active .list-items {
-    max-height: 200px;
-  }
-  
 .list-items {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
   }
+
+  .list-items.active{
+    max-height: 200px;
+  }
+
+#hideList:hover{
+    cursor: pointer;
+}
+
 
 
 
