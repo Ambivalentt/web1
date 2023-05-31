@@ -141,6 +141,9 @@ html{
     color: rgb(255, 218, 11);
 }
 
+.form-custom{
+    background-color: rgba(250, 205, 73, 0.5);
+}
 .list-footer{
     list-style: none;
 }
@@ -170,8 +173,11 @@ html{
 
 
 
-
-@media (min-width:500px){
+@media (min-width:768px){
+    .positionCustom{
+        position: absolute;
+        top: 25%;
+    }
     .list-items{
         max-height: 200px;
     }
@@ -180,5 +186,8 @@ html{
       }
     .active{
         display: block;
+    }
+    .icon-footer{
+        display: none !important;
     }
 }
