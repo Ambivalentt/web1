@@ -6,3 +6,6 @@ btnHide.forEach((btn, index)=>{
         list[index].classList.toggle('active')
     })
 })
+
+
+
