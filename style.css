@@ -108,7 +108,10 @@ html{
     border: none !important;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
+.offer-hover:hover{
+    border: 0.3px solid rgb(212, 212, 212);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
 .custom-star{
     color: darkorange;
     font-size: 1.4rem;
@@ -170,7 +173,6 @@ html{
 #hideList:hover{
     cursor: pointer; 
 }
-
 
 
 @media (min-width:768px){
